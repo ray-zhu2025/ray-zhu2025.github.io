@@ -33,9 +33,14 @@ exclude:
 
 # SEO 设置
 lang: zh
+social:
+  name: Ray Zhu
+  links:
+    - https://github.com/ray-zhu2025
+
 author:
   name: Ray Zhu
-  url: https://github.com/ray-zhu2025/
+  url: https://github.com/ray-zhu2025
   email: rayzhu2025@163.com
 
 # 样式设置
