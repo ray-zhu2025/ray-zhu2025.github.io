@@ -1,0 +1,44 @@
+# 基本设置
+title: Ray Zhu
+description: 个人博客网站
+url: https://ray-zhu2025.github.io
+
+# 使用远程主题
+remote_theme: vszhub/not-pure-poole
+
+# 分页设置
+paginate: 5
+permalink: pretty
+cover_image: /bg.jpeg
+
+# 插件设置
+plugins:
+  - jekyll-remote-theme
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Jekyll 优化
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+
+# SEO 设置
+lang: zh
+author:
+  name: Ray Zhu
+  url: https://github.com/ray-zhu2025/
+  email: rayzhu2025@163.com
+
+# 样式设置
+sass:
+  sass_dir: _sass
+  style: compressed 
